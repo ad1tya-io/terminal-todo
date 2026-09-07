@@ -3,10 +3,10 @@ package main
 func main() {
 	todos := Todos{}
 
-	todos.add("Complete assignments.")
-	todos.add("Solve DSA Problems.")
+	storage := NewStorage[Todos]("todos.json")
 
-	todos.toggle(0)
+	storage.Load(&todos)
 
 	todos.print()
+	storage.Save(todos)
 }
