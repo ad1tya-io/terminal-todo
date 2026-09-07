@@ -1,14 +1,20 @@
 [
     {
-        "Title": "Complete assignments.",
+        "Title": "Sample Event A",
         "Completed": true,
         "CreatedAt": "2026-09-07T21:29:54.5752308+05:30",
         "CompletedAt": "2026-09-07T21:30:49.3345111+05:30"
     },
     {
-        "Title": "Solve DSA Problems.",
+        "Title": "Sample Event B",
         "Completed": false,
         "CreatedAt": "2026-09-07T21:29:54.5752308+05:30",
         "CompletedAt": null
+    },
+    {
+        "Title": "Sample Event C",
+        "Completed": true,
+        "CreatedAt": "2026-09-07T22:03:41.9356467+05:30",
+        "CompletedAt": "2026-09-07T22:04:32.3282544+05:30"
     }
 ]
